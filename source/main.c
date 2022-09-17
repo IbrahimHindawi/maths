@@ -78,6 +78,8 @@ int main() {
     m33_mul_m33(R, A, B);
     m33_print(R);
 
+    m33_mul_v3f32(A, up);
+
     printf("\n\n");
     return 0;
 }

@@ -17,6 +17,6 @@ void m33_add_m33(m33 A, m33 B);
 void m33_sub_m33(m33 A, m33 B);
 void m33_mul_f32(m33 A, f32 s);
 void m33_mul_m33(m33 R, m33 A, m33 B);
-/* void m33_mul_v3f32(m33 R, m33 A, v3f32 v); */
+v3f32 m33_mul_v3f32(m33 A, v3f32 v);
 
 #endif

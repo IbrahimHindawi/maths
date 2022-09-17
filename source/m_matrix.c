@@ -62,3 +62,10 @@ void m33_mul_m33(m33 R, m33 A, m33 B) {
     R[2][1] = A[2][0] * B[0][1] + A[2][1] * B[1][1] + A[2][2] * B[2][1];
     R[2][2] = A[2][0] * B[0][2] + A[2][1] * B[1][2] + A[2][2] * B[2][2];
 }
+v3f32 m33_mul_v3f32(m33 A, v3f32 v) {
+    v3f32 result = {0};
+    result.x = A[0][0] * v.x + A[0][1] * v.y + A[0][2] * v.z;
+    result.y = A[1][0] * v.x + A[1][1] * v.y + A[1][2] * v.z;
+    result.z = A[2][0] * v.x + A[2][1] * v.y + A[2][2] * v.z;
+    return result;
+}
