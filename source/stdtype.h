@@ -1,5 +1,5 @@
-#ifndef                         __STDTYPE__
-#define                         __STDTYPE__
+#ifndef __STDTYPE__
+#define __STDTYPE__
 
 #include <stdint.h>
 

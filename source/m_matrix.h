@@ -1,5 +1,5 @@
-#ifndef                     __M_MATRIX_H__
-#define                     __M_MATRIX_H__
+#ifndef __M_MATRIX_H__
+#define __M_MATRIX_H__
 
 #include "stdtype.h"
 #include "m_vec.h"
